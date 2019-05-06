@@ -5,14 +5,10 @@ Vue.use(Router)
 
 /* Layout */
 import Layout from '../views/layout/Layout'
-import monthReport from '../components/ReportForms/monthReport'
-import weekReport from '../components/ReportForms/weekReport'
-import seasonReport from '../components/ReportForms/seasonReport'
 
 const Login = () => import('@/views/login')
 const Home = () => import('@/views/home')
 const NotFound = () => import('@/views/404')
-const Map = () => import('@/views/Map/RSCompare1')
 const ProjectInfo = () => import('@/views/pdfview/ProjectInfo')
 const RecordEvents = () => import('@/views/RecordEvents')
 const OverallSituation = () => import('@/views/OverallSituation')
@@ -49,28 +45,6 @@ export const constantRouterMap = [
   {
     path: '',
     component: Layout,
-    name: 'weekReport',
-    meta: {title: '周日季报', icon: 'egPlanList'},
-    children: [{
-      path: 'weekreport',
-      name: 'weekReport',
-      component: weekReport,
-      meta: {title: '周报表', icon: 'egPlanList'},
-    }, {
-      path: 'monthreport',
-      name: 'monthReport',
-      component: monthReport,
-      meta: {title: '月报表', icon: 'egPlanList'},
-    }, {
-      path: 'seasonreport',
-      name: 'seasonReport',
-      component: seasonReport,
-      meta: {title: '季报表', icon: 'egPlanList'},
-    }],
-  },
-  {
-    path: '',
-    component: Layout,
     name: 'projectInfo',
     children: [{
       path: 'info',
@@ -100,11 +74,6 @@ export const constantRouterMap = [
       name: 'thematicmap',
       component: ThematicMap,
       meta: {title: '专题地图', icon: 'map'},
-    }, {
-      path: 'map',
-      name: 'map',
-      component: Map,
-      meta: {title: '历史对比', icon: 'map'},
     }],
   },
   {

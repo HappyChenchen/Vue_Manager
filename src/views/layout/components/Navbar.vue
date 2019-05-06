@@ -2,7 +2,7 @@
   <el-menu class="navbar" mode="horizontal">
     <hamburger class="hamburger-container" :toggleClick="toggleSideBar" :isActive="sidebar.opened"></hamburger>
     <div style="height: 50px;display: flex;width: 100%;position: absolute;left: 50px;background: #304156;">
-      <span style="color: #fff;font-size: 1.1rem;line-height: 50px;">绿色生态屏障工程建设</span>
+      <span style="color: #fff;font-size: 1.1rem;line-height: 50px;">项目管理系统</span>
     </div>
     <el-dropdown class="avatar-container" trigger="click">
       <div class="avatar-wrapper">

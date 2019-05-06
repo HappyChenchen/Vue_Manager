@@ -8,7 +8,7 @@
 
         <div class="cd-timeline-content">
           <p class="record-title">大事记1</p>
-          <p>天津市绿色生态屏障规划总面积约736平方公里，涉及宁河、东丽、津南、西青及滨海新区5个区，其中津南区面积最大，为329.96平方公里，占全市绿色生态屏障规划总面积的44.7%，占津南辖区总面积的85.1%，是我市绿色生态屏障建设的主战场。</p>
+          <p>XXXXXXXXXXXXXXXXXX</p>
           <span class="cd-date">4月1日</span>
         </div> <!-- cd-timeline-content -->
       </div> <!-- cd-timeline-block -->
@@ -20,8 +20,7 @@
 
         <div class="cd-timeline-content">
           <p class="record-title">大事记2</p>
-          <p>天津市绿色生态屏障规划总面积约736平方公里，涉及宁河、东丽、津南、西青及滨海新区5个区，其中津南区面积最大，为329.96平方公里，占全市绿色生态屏障规划总面积的44.7%，占津南辖区总面积的85.1%，是我市绿色生态屏障建设的主战场。</p>
-          <span class="cd-date">3月1日</span>
+          <p>XXXXXXXXXXXXXXXXXX</p><span class="cd-date">3月1日</span>
         </div> <!-- cd-timeline-content -->
       </div> <!-- cd-timeline-block -->
 
@@ -32,8 +31,7 @@
 
         <div class="cd-timeline-content">
           <p class="record-title">大事记3</p>
-          <p>天津市绿色生态屏障规划总面积约736平方公里，涉及宁河、东丽、津南、西青及滨海新区5个区，其中津南区面积最大，为329.96平方公里，占全市绿色生态屏障规划总面积的44.7%，占津南辖区总面积的85.1%，是我市绿色生态屏障建设的主战场。</p>
-          <span class="cd-date">2月1日</span>
+          <p>XXXXXXXXXXXXXXXXXX</p><span class="cd-date">2月1日</span>
         </div> <!-- cd-timeline-content -->
       </div> <!-- cd-timeline-block -->
 
@@ -44,7 +42,7 @@
 
         <div class="cd-timeline-content">
           <p class="record-title">大事记4</p>
-          <p>天津市绿色生态屏障规划总面积约736平方公里，涉及宁河、东丽、津南、西青及滨海新区5个区，其中津南区面积最大，为329.96平方公里，占全市绿色生态屏障规划总面积的44.7%，占津南辖区总面积的85.1%，是我市绿色生态屏障建设的主战场。</p>
+          <p>XXXXXXXXXXXXXXXXXX</p>
           <span class="cd-date">1月1日</span>
         </div> <!-- cd-timeline-content -->
       </div> <!-- cd-timeline-block -->

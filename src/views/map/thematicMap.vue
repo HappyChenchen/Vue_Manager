@@ -3,41 +3,41 @@
     <div id="thematicBox">
       <el-row>
         <el-col :span="5" class="theme-box" style="background-color: #1296db">
-          <div class="theme-title" @click="goLayer(0)">造林绿化</div>
+          <div class="theme-title" @click="goLayer(0)">地图1</div>
         </el-col>
         <el-col :span="6" class="theme-box" style="background-color: #FF9642">
-          <div class="theme-title" @click="goLayer(1)">高标准农田建设</div>
+          <div class="theme-title" @click="goLayer(1)">地图2</div>
         </el-col>
         <el-col :span="6" class="theme-box" style="background-color: #458B74">
-          <div class="theme-title" @click="goLayer(2)">水生态环境治理</div>
+          <div class="theme-title" @click="goLayer(2)">地图3</div>
         </el-col>
         <el-col :span="5" class="theme-box" style="background-color: #F08080">
-          <div class="theme-title" @click="goLayer(3)">道路交通建设</div>
+          <div class="theme-title" @click="goLayer(3)">地图4</div>
         </el-col>
 
       </el-row>
 
       <el-row>
         <el-col :span="5" class="theme-box" style="background-color: #c0362c">
-          <div class="theme-title" @click="goLayer(4)">旅游发展</div>
+          <div class="theme-title" @click="goLayer(4)">地图5</div>
         </el-col>
         <el-col :span="6" class="theme-box" style="background-color: #9ABD62">
-          <div class="theme-title" @click="goLayer(5)">拆迁与生态修复</div>
+          <div class="theme-title" @click="goLayer(5)">地图6</div>
         </el-col>
         <el-col :span="6" class="theme-box" style="background-color: #FF8247">
-          <div class="theme-title" @click="goLayer(6)">基础设施建设</div>
+          <div class="theme-title" @click="goLayer(6)">地图7</div>
         </el-col>
         <el-col :span="5" class="theme-box" style="background-color: #0097ac">
-          <div class="theme-title" @click="goLayer(7)">污染治理</div>
+          <div class="theme-title" @click="goLayer(7)">地图8</div>
         </el-col>
       </el-row>
 
       <el-row>
         <el-col :span="5" class="theme-box" style="background-color: #B03060">
-          <div class="theme-title" @click="goLayer(8)">综合监管</div>
+          <div class="theme-title" @click="goLayer(8)">地图9</div>
         </el-col>
-        <el-col :span="10" class="theme-box" style="background-color: #668d3c">
-          <div class="theme-title" @click="goLayer(9)">人居环境整治与乡村振兴</div>
+        <el-col :span="5" class="theme-box" style="background-color: #668d3c">
+          <div class="theme-title" @click="goLayer(9)">地图10</div>
         </el-col>
       </el-row>
     </div>

@@ -3,12 +3,12 @@
     <div>
       <div class="overallintroduce" style="padding: 10px">
         <p style="color: #000;font-weight: 600;font-size: 1.1rem;padding-bottom: 5px">【总体目标】</p>
-        <span class="introduceGoal">1. 蓝绿空间：</span><span class="introducePer">70%（远景目标80%）</span><br>
-        <span class="introduceGoal">2. 一级管控区森林覆盖率：</span><span class="introducePer">30%</span><br>
-        <span class="introduceGoal">3. 地表水质标准：</span><span class="introducePer">地表水主要指标达到Ⅳ类，局部达到Ⅲ类</span><br>
-        <span class="introduceGoal">4. 生态和农业用水量：</span><span class="introducePer">3.21亿吨</span><br>
-        <span class="introduceGoal">5. 生活垃圾处理率达到：</span><span class="introducePer">100%</span><br>
-        <span class="introduceGoal">6. 常住人口目标规模：</span><span class="introducePer">160万人</span>
+        <span class="introduceGoal">1. XXXX：</span><span class="introducePer">XXXX</span><br>
+        <span class="introduceGoal">2. XXXX：</span><span class="introducePer">XXXX</span><br>
+        <span class="introduceGoal">3. XXXX：</span><span class="introducePer">XXXX</span><br>
+        <span class="introduceGoal">4. XXXX：</span><span class="introducePer">XXXX</span><br>
+        <span class="introduceGoal">5. XXXX：</span><span class="introducePer">XXXX</span><br>
+        <span class="introduceGoal">6. XXXX：</span><span class="introducePer">XXXX</span>
       </div>
       <div class="pieCharts" style="padding: 5px">
         <div id="pieCharts" style="width: 100%;height: 300px;">
@@ -32,7 +32,7 @@
       return {
         pie_option: {
           title: {
-            text: '十大工程总体进度',
+            text: '标题',
             x: 'center'
           },
           tooltip: {
@@ -42,8 +42,8 @@
           legend: {
             x:'center',
             top:'75%',
-            data: ['造林绿化', '高标准农田建设','水生态环境治理','人居环境整治与乡村振兴','旅游发展',
-              '道路交通建设', '生态基础设施建设','拆迁与生态修复','污染治理','综合监管']
+            data: ['项目A', '项目B','项目C','项目D','项目E',
+              '项目F', '项目G','项目H','项目J','项目J']
           },
           toolbox: {
             show: true,
@@ -61,7 +61,7 @@
           calculable: true,
           series: [
             {
-              name: '十大工程总体进度',
+              name: '标题',
               type: 'pie',
               radius: [20, 90],
               center:['50%', '45%'],
@@ -83,16 +83,16 @@
                 }
               },
               data: [
-                {value: 45, name: '造林绿化'},
-                {value: 10, name: '高标准农田建设'},
-                {value: 25, name: '水生态环境治理'},
-                {value: 35, name: '人居环境整治与乡村振兴'},
-                {value: 15, name: '旅游发展'},
-                {value: 25, name: '道路交通建设'},
-                {value: 30, name: '生态基础设施建设'},
-                {value: 40, name: '拆迁与生态修复'},
-                {value: 15, name: '污染治理'},
-                {value: 25, name: '综合监管'},
+                {value: 45, name: '项目A'},
+                {value: 10, name: '项目B'},
+                {value: 25, name: '项目C'},
+                {value: 35, name: '项目D'},
+                {value: 15, name: '项目E'},
+                {value: 25, name: '项目F'},
+                {value: 30, name: '项目G'},
+                {value: 40, name: '项目H'},
+                {value: 15, name: '项目I'},
+                {value: 25, name: '项目J'},
               ]
             },
           ]
@@ -111,8 +111,8 @@
         legend: {
           x:'center',
           top:'75%',
-          data: ['造林绿化', '高标准农田建设','水生态环境治理','人居环境整治与乡村振兴','旅游发展',
-            '道路交通建设', '生态基础设施建设','拆迁与生态修复','污染治理','综合监管']
+          data: ['项目A', '项目B','项目C','项目D','项目E',
+            '项目F', '项目G','项目H','项目I','项目J']
         },
         grid: {
           left: '0%',
@@ -126,11 +126,11 @@
         },
         yAxis: {
           type: 'category',
-          data: ['西青','滨海新区','东丽','津南','宁河']
+          data: ['地区1','地区2','地区3','地区4','地区5']
         },
         series: [
           {
-            name: '造林绿化',
+            name: '项目A',
             type: 'bar',
             stack: '总量',
             label: {
@@ -142,7 +142,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '高标准农田建设',
+            name: '项目B',
             type: 'bar',
             stack: '总量',
             label: {
@@ -154,7 +154,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '水生态环境治理',
+            name: '项目C',
             type: 'bar',
             stack: '总量',
             label: {
@@ -166,7 +166,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '人居环境整治与乡村振兴',
+            name: '项目D',
             type: 'bar',
             stack: '总量',
             label: {
@@ -178,7 +178,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '旅游发展',
+            name: '项目E',
             type: 'bar',
             stack: '总量',
             label: {
@@ -190,7 +190,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '道路交通建设',
+            name: '项目F',
             type: 'bar',
             stack: '总量',
             label: {
@@ -202,7 +202,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '生态基础设施建设',
+            name: '项目G',
             type: 'bar',
             stack: '总量',
             label: {
@@ -214,7 +214,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '拆迁与生态修复',
+            name: '项目H',
             type: 'bar',
             stack: '总量',
             label: {
@@ -226,7 +226,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '污染治理',
+            name: '项目I',
             type: 'bar',
             stack: '总量',
             label: {
@@ -238,7 +238,7 @@
             data: [48, 50, 45, 40, 50]
           },
           {
-            name: '综合监管',
+            name: '项目J',
             type: 'bar',
             stack: '总量',
             label: {

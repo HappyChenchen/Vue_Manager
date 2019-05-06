@@ -113,8 +113,7 @@
             fullscreenToggle: true // 全屏按钮
           }
         },
-        pdfurl: 'http://tjdesktop.ngrok.gisoft.tech:8090/pdf/test.pdf'
-//        pdfurl: '../../static/file/资源1/二级资源1/资料.pdf',
+        pdfurl: '../../static/file/资源1/二级资源1/资料.pdf',
     }
     },
     components: {
@@ -128,62 +127,62 @@
         label: '工作报告',
         children: [{
           id: 2,
-          label: '双城2018-08-17-工作情况.pdf'
+          label: '工作情况.pdf'
         }, {
           id: 3,
-          label: '双城间绿色生态监管-规划一张图建设方案.docx'
+          label: '工作情况.docx'
         },{
           id: 4,
-          label: '天津市双城管控平台设计方案-更新.docx'
+          label: '工作情况.docx'
         },{
           id: 5,
-          label: '津南双城管控630.pptx'
+          label: '工作情况.pptx'
         },{
           id: 6,
-          label: '现状调查和平台建设情况汇报20180627.docx'
+          label: '工作情况.docx'
         },{
           id: 7,
-          label: '现状资料整理ppt 0626 简稿.pptx'
+          label: '工作情况.pptx'
         },{
           id: 8,
-          label: '绿色生态屏障地区实施细则20180516.docx'
+          label: '工作情况.docx'
         },{
           id: 9,
-          label: '滨海新区与中心城区中间地带绿色生态屏障规划编制工作方案.docx'
+          label: '工作情况.docx'
         },{
           id: 10,
-          label: '关于加强滨海新区与中心城区中间地带规划管控、建设绿色生态屏障工作公示意见反馈情况.doc'
+          label: '工作情况.doc'
         },{
           id: 11,
-          label: '天津市人民政府办公厅关于成立天津市加强滨海新区与中心城区中间地带规划管控建设绿色生态屏障工作领导小组的通知.docx'
+          label: '工作情况.docx'
         }]
       }, {
         id: 12,
         label: '会议记录',
         children: [{
           id: 13,
-          label: '【20180519】双城管控 - 现状调查.xmind'
+          label: '会议记录.xmind'
         }, {
           id: 14,
-          label: '【20180519】平台建设技术体系讨论20180519.xmind'
+          label: '会议记录.xmind'
         },{
           id: 15,
-          label: '【20180609】我的地图工作平台.xmind'
+          label: '会议记录.xmind'
         },{
           id: 16,
-          label: '【20180627】现状调查和平台建设情况汇报（金市长）20180627V2.0（cr-zzj）.docx'
+          label: '会议记录.docx'
         },{
           id: 17,
-          label: '【20180828】地理国情平台升级改造工作方案（by-zzj）-jh.docx'
+          label: '会议记录.docx'
         },{
           id: 18,
-          label: '【2018-08-09】工作情况 - 常务会.pptx'
+          label: '会议记录.pptx'
         },{
           id: 19,
-          label: '【20190313】向指挥部汇报材料'
+          label: '会议记录.pptx'
         },{
           id: 20,
-          label: '【常务会】关于我市双城间生态屏障区规划工作情况汇报.pdf'
+          label: '会议记录.pptx'
         }]
       },
       ]

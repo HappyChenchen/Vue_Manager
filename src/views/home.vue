@@ -1,19 +1,13 @@
 <template>
   <div class="home-container">
     <el-row>
-      <el-col :span="7" class="home-box" style="background-color: #1296db">
-        <div class="out-border"  @click="gotoTable">
-          <svg-icon iconClass="report" class="home-icon"></svg-icon>
-          <div class="home-title">周日季报</div>
-        </div>
-      </el-col>
-      <el-col :span="7"  class="home-box" style="background-color: #FF9642">
+      <el-col :span="11"  class="home-box" style="background-color: #FF9642">
         <div class="out-border" @click="gotoBook">
           <svg-icon iconClass="egBook" class="home-icon"></svg-icon>
           <div class="home-title">项目资料</div>
         </div>
       </el-col>
-      <el-col :span="7" class="home-box" style="background-color: #458B74">
+      <el-col :span="11" class="home-box" style="background-color: #458B74">
         <div class="out-border" @click="gotoOverall">
           <svg-icon iconClass="totalCheck" class="home-icon"></svg-icon>
           <div class="home-title">总体情况</div>
@@ -42,26 +36,6 @@
       </el-col>
     </el-row>
 
-    <el-row>
-      <el-col :span="7"  class="home-box" style="background-color: #F4A460">
-        <div class="out-border">
-          <svg-icon iconClass="egResult" class="home-icon"></svg-icon>
-          <div class="home-title">规划成果</div>
-        </div>
-      </el-col>
-      <el-col :span="7" class="home-box" style="background-color: #9ACD32">
-        <div class="out-border">
-          <svg-icon iconClass="egList" class="home-icon"></svg-icon>
-          <div class="home-title">工程计划</div>
-        </div>
-      </el-col>
-      <el-col :span="7"  class="home-box" style="background-color: #0097ac">
-        <div class="out-border">
-          <svg-icon iconClass="egPlan" class="home-icon"></svg-icon>
-          <div class="home-title">工程清单</div>
-        </div>
-      </el-col>
-    </el-row>
   </div>
 </template>
 <script>
