@@ -70,7 +70,7 @@
         isLayerTreeShow: false,
         layers: {},
         treeItems: [],
-        tiandituKey: '60f62b68fd6bbe652ae59aeec34c78f0',
+        tiandituKey: '###',
         data: [{'type': 0, 'name': '天地图矢量地图服务', 'url': 'http://t3.tianditu.gov.cn/DataServer?T=vec_w&x={x}&y={y}&l={z}', index: 2},
           {'type': 0, 'name': '天地图矢量注记服务', 'url': 'http://t3.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}', index: 3},
           {'type': 0, 'name': '天地图影像地图服务', 'url': 'http://t3.tianditu.com/DataServer?T=img_w&x={x}&y={y}&l={z}', index: 0},
